@@ -1,0 +1,59 @@
+#home.modelo-homem{
+	
+	.s-topo{
+		height: 100vh;
+		max-height: 850px;
+		background-size: cover;
+		background-position: center;
+		.info{
+			padding: 40px 0;
+			height: 100vh;
+			max-height: 850px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+		.logo{
+			margin-left: 100px;
+		}
+		.titulo{
+			font-size: 36px;
+			line-height: 100%;
+			text-align: center;
+			letter-spacing: 0.05em;
+			text-transform: uppercase;
+			font-family: $fonte2;
+			h1{
+				padding: 8px 45px;
+				display: inline-block;
+				color: #030303;
+				background: #fff;
+			}
+			h2{
+				color: #fff;
+				margin-top: 20px;
+			}
+		}
+	}
+
+
+	.s-texto{
+		background: #4A4A4A;
+		padding: 60px 0;
+		color: #fff;
+		img{
+			max-width: 100%;
+			height: auto;
+		}
+		p{
+			font-size: 22px;
+			line-height: 150%;
+			color: #FFFFFF;
+			margin-bottom: 38px;
+		}
+		.info{
+			margin-top: 60px;
+		}
+	}
+
+}

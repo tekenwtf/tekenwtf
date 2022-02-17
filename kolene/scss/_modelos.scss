@@ -76,6 +76,7 @@
 				z-index: 99;
 				@media(max-width: 1500px){
 					margin-top: 50px;
+					margin-left: -80px;
 				}
 			}
 		}
@@ -88,6 +89,57 @@
 			.enfeite{
 				right: -700px;
 				bottom: -650px;
+			}
+			.produto-texto{
+				margin-top: 150px;
+				
+				@media(max-width: 991px){
+					margin-top: 0;
+				}
+			}
+		}
+
+		.s-etapas{
+			padding: 60px 0;
+			background: #104633;
+
+			.item{
+				display: flex;
+				align-items: center;
+				margin-bottom: 30px;
+				@media(max-width: 991px){
+					flex-direction: column;
+				}
+				img{
+					margin-right: 30px;
+					@media(max-width: 991px){
+						margin-right: 0;
+						margin-bottom: 15px;
+					}
+				}
+				p{
+					font-family: Raleway;
+					font-style: normal;
+					font-size: 21px;
+					line-height: 173.5%;
+					color: #FFFFFF;
+					strong{
+						font-weight: 900;
+					}
+					@media(max-width: 991px){
+						font-size: 18px;
+						line-height: 28px;
+					}
+				}
+				@media(min-width: 992px){
+					&.item2{
+						margin-left: 60px;
+					}
+					&.item3{
+						margin-left: 160px;
+						margin-bottom: 0;
+					}
+				}
 			}
 		}
 
@@ -117,6 +169,151 @@
 		.s-todas-linhas{
 			h2{
 				color: #DF7227;
+			}
+		}
+
+	}
+
+
+	&.modelo-cachos-crespos{
+
+		.titulo-secao{
+			color: #EBFDFF;
+		}
+
+		.s-topo{
+			.img-topo{
+				margin-left: 20px;
+				margin-top: 190px;
+				position: relative;
+				z-index: 99;
+				@media(max-width: 1500px){
+					margin-top: 50px;
+					margin-left: -80px;
+				}
+			}
+		}
+
+		.s-texto{
+			background: #104633;
+			padding-bottom: 50px;
+
+			.texto2{
+				margin-top: 150px;
+				@media(max-width: 991px){
+					margin-top: 0;
+				}
+			}
+
+			.imgs{
+				display: flex;
+				flex-direction: column;
+				.img1{
+					margin-top: -160px;
+				}
+				img{
+					display: block;
+					margin-top: 0;
+				}
+			}
+
+			p{
+				color: #fff;
+			}
+			.enfeite{
+				right: -700px;
+				bottom: -650px;
+			}
+			.produto-texto{
+
+				
+				@media(max-width: 991px){
+					margin-top: 0;
+				}
+			}
+		}
+
+		.s-etapas{
+			padding: 60px 0;
+			background: #104633;
+
+			.item{
+				display: flex;
+				align-items: center;
+				margin-bottom: 30px;
+				@media(max-width: 991px){
+					flex-direction: column;
+				}
+				img{
+					margin-right: 30px;
+					@media(max-width: 991px){
+						margin-right: 0;
+						margin-bottom: 15px;
+					}
+				}
+				p{
+					font-family: Raleway;
+					font-style: normal;
+					font-size: 21px;
+					line-height: 173.5%;
+					color: #FFFFFF;
+					strong{
+						font-weight: 900;
+					}
+					@media(max-width: 991px){
+						font-size: 18px;
+						line-height: 28px;
+					}
+				}
+				@media(min-width: 992px){
+					&.item2{
+						margin-left: 60px;
+					}
+					&.item3{
+						margin-left: 160px;
+						margin-bottom: 0;
+					}
+				}
+			}
+		}
+
+		.s-beneficios{
+			background: #00976B;
+			&.beneficios2{
+				background: #AFD13A;
+				.titulo-secao{
+					color: #104633;
+				}
+				.item{
+					span{
+						color: #195A40;
+					}
+				}
+			}
+			.titulo-secao{
+				text-align: center;
+				color: #fff;
+			}
+			.item{
+				span{
+					color: #fff;
+				}
+			}
+		}
+
+		.s-modo-uso{
+			background: #EEEAD9;
+			.titulo-secao{
+				color: #004B35;
+			}
+			.item, p{
+				color: #004B35;
+			}
+		}
+
+		.s-todas-linhas{
+			h2{
+				color: #104633;
 			}
 		}
 

@@ -1,0 +1,392 @@
+#home{
+
+	&.modelo-aqua{
+
+		.titulo-secao{
+			color: #EBFDFF;
+		}
+
+
+		.s-topo{
+			.img-topo{
+				margin-left: -120px;
+				margin-top: 230px;
+				position: relative;
+				z-index: 99;
+				@media(max-width: 1500px){
+					margin-left: -160px;
+					margin-top: 116px;
+				}
+			}
+		}
+
+		.s-texto{
+			p{
+				color: #fff;
+			}
+			.enfeite{
+				right: -240px;
+				bottom: -240px;
+				@media(max-width: 1500px){
+					right: -280px;
+				}
+			}
+		}
+
+		.s-beneficios{
+			background: #008FAD;
+			.item{
+				span{
+					color: #fff;
+				}
+			}
+		}
+
+		.s-modo-uso{
+			background: #00B5C6;
+			.item, p{
+				color: #fff;
+			}
+		}
+
+		.s-todas-linhas{
+			h2{
+				color: #DF7227;
+			}
+		}
+
+	}
+
+
+	&.modelo-classico{
+
+		.titulo-secao{
+			color: #EBFDFF;
+		}
+
+		.s-topo{
+			.img-topo{
+				margin-left: -190px;
+				margin-top: 190px;
+				position: relative;
+				z-index: 99;
+				@media(max-width: 1500px){
+					margin-left: -210px;
+					margin-top: 76px;
+				}
+			}
+		}
+
+		.s-texto{
+			p{
+				color: #fff;
+			}
+			.enfeite{
+				right: -370px;
+				bottom: -410px;
+			}
+		}
+
+		.s-beneficios{
+			background: #EF9523;
+			.item{
+				span{
+					color: #fff;
+				}
+			}
+		}
+
+		.s-modo-uso{
+			background: #FECA3E;
+			.item, p{
+				color: #fff;
+			}
+		}
+
+		.s-todas-linhas{
+			h2{
+				color: #DF7227;
+			}
+		}
+
+	}
+
+
+
+	&.modelo-sos{
+
+		.titulo-secao{
+			color: #EBFDFF;
+		}
+
+		.s-topo{
+			.img-topo{
+				margin-left: -120px;
+				margin-top: 260px;
+				position: relative;
+				z-index: 99;
+				@media(max-width: 1500px){
+					margin-left: -160px;
+					margin-top: 150px;
+				}
+				@media(max-width: 991px){
+					margin-bottom: -130px!important;
+				}
+			}
+		}
+
+		.s-texto{
+			p{
+				color: #fff;
+			}
+			.enfeite{
+				right: -260px;
+				bottom: -193px;
+			}
+		}
+
+		.s-beneficios{
+			background: #E7742B;
+			.item{
+				span{
+					color: #fff;
+				}
+			}
+		}
+
+		.s-modo-uso{
+			background: #F5964D;
+			.item, p{
+				color: #fff;
+			}
+		}
+
+		.s-todas-linhas{
+			h2{
+				color: #DF7227;
+			}
+		}
+
+	}
+
+	&.modelo-xtreme{
+
+		.titulo-secao{
+			color: #EBFDFF;
+		}
+
+		.s-topo{
+			.img-topo{
+				margin-left: -120px;
+				margin-top: 200px;
+				position: relative;
+				z-index: 99;
+				@media(max-width: 1500px){
+					margin-left: -160px;
+					margin-top: 85px;
+				}
+				@media(max-width: 991px){
+					margin-bottom: -130px!important;
+				}
+			}
+		}
+
+		.s-texto{
+			p{
+				color: #fff;
+			}
+			.enfeite{
+				right: -260px;
+				bottom: -193px;
+			}
+		}
+
+		.s-beneficios{
+			background: #C7241D;
+			.item{
+				span{
+					color: #fff;
+				}
+			}
+		}
+
+		.s-modo-uso{
+			background: #EE8921;
+			.item, p{
+				color: #fff;
+			}
+		}
+
+		.s-todas-linhas{
+			h2{
+				color: #DF7227;
+			}
+		}
+
+	}
+
+
+	&.modelo-24{
+
+		.titulo-secao{
+			color: #EBFDFF;
+		}
+
+		.s-topo{
+			.img-topo{
+				margin-left: -120px;
+				margin-top: 200px;
+				position: relative;
+				z-index: 99;
+				@media(max-width: 1500px){
+					margin-left: -160px;
+					margin-top: 85px;
+				}
+			}
+		}
+
+		.s-texto{
+			p{
+				color: #fff;
+			}
+			.enfeite{
+				right: -570px;
+				bottom: -393px;
+			}
+		}
+
+		.s-beneficios{
+			background: #AD3F82;
+			.item{
+				span{
+					color: #fff;
+				}
+			}
+		}
+
+		.s-modo-uso{
+			background: #D16886;
+			.item, p{
+				color: #fff;
+			}
+		}
+
+		.s-todas-linhas{
+			h2{
+				color: #DF7227;
+			}
+		}
+
+	}
+
+
+	&.modelo-ultra{
+
+		.titulo-secao{
+			color: #EBFDFF;
+		}
+
+		.s-topo{
+			.img-topo{
+				margin-left: -120px;
+				margin-top: 300px;
+				position: relative;
+				z-index: 99;
+				@media(max-width: 1500px){
+					margin-left: -160px;
+					margin-top: 180px;
+				}
+			}
+		}
+
+		.s-texto{
+			p{
+				color: #fff;
+			}
+			.enfeite{
+				right: -170px;
+				bottom: -253px;
+			}
+		}
+
+		.s-beneficios{
+			background: #D5105B;
+			.item{
+				span{
+					color: #fff;
+				}
+			}
+		}
+
+		.s-modo-uso{
+			background: #EE7654;
+			.item, p{
+				color: #fff;
+			}
+		}
+
+		.s-todas-linhas{
+			h2{
+				color: #DF7227;
+			}
+		}
+
+	}
+
+	&.modelo-mar{
+
+		.titulo-secao{
+			color: #EBFDFF;
+		}
+
+		.s-topo{
+			.img-topo{
+				margin-left: -120px;
+				margin-top: 107px;
+				position: relative;
+				z-index: 99;
+				@media(max-width: 1500px){
+					margin-left: -170px;
+					margin-top: -5px;
+				}
+				@media(max-width: 991px){
+					margin-bottom: -180px!important;
+				}
+			}
+		}
+
+		.s-texto{
+			p{
+				color: #fff;
+			}
+			.enfeite{
+				right: -390px;
+				bottom: -263px;
+			}
+		}
+
+		.s-beneficios{
+			background: #E56082;
+			.item{
+				span{
+					color: #fff;
+				}
+			}
+		}
+
+		.s-modo-uso{
+			background: #EEA2AF;
+			.item, p{
+				color: #fff;
+			}
+		}
+
+		.s-todas-linhas{
+			h2{
+				color: #DF7227;
+			}
+		}
+
+	}
+
+}

@@ -1,0 +1,238 @@
+.titulo-secao{
+	font-family: Roboto Condensed;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 35px;
+	line-height: 50px;
+	text-transform: uppercase;
+	@media(max-width: 991px){
+		font-size: 25px;
+	}
+}
+
+#home{
+
+	.s-topo{
+		background-size: cover;
+		background-position: center;
+		padding-top: 110px;
+		position: relative;
+		height: 80vh;
+
+		@media(max-width: 1500px){
+			height: 660px;
+		}
+
+		.logo{
+
+		}
+
+		@media(max-width: 991px){
+			height: auto;
+			padding: 60px 0 80px 0;
+			.logo{
+				max-width: 50%;
+				height: auto;
+			}
+			.img-topo{
+				max-width: 100%;
+				height: auto;
+				margin-left: 0!important;
+				margin-top: 50px!important;
+				margin-bottom: -150px!important;
+			}
+		}
+
+	}
+
+
+	.s-texto{
+		padding: 240px 0 210px 0;
+		background-size: cover;
+		background-position: center;
+		position: relative;
+		@media(max-width: 991px){
+			padding: 120px 0 60px 0;
+		}
+
+		.enfeite{
+			position: absolute;
+			@media(max-width: 991px){
+				display: none;
+			}
+		}
+
+		ul{
+			column-count: 3;
+			margin-bottom: 40px;
+			@media(max-width: 991px){
+				column-count: 1;
+			}
+			li{
+				font-weight: 300;
+				font-size: 16px;
+				line-height: 150%;
+				color: #fff;
+				display: flex;
+				margin-bottom: 8px;
+				span{
+					font-weight: 600;
+					font-size: 16px;
+					line-height: 150%;
+					color: #561B6F;
+					width: 25px;
+					height: 25px;
+					@extend %center;
+					border-radius: 50%;
+					margin-right: 8px;
+					background: #FFFFFF;
+					opacity: 0.6;
+				}
+			}
+		}
+
+		p{
+			font-weight: 300;
+			font-size: 18px;
+			line-height: 150%;
+			margin-bottom: 35px;
+			@media(max-width: 991px){
+				font-size: 16px;
+			}
+		}
+		.produto-texto{
+			margin-top: -150px;
+			@media(max-width: 991px){
+				margin-top: 0;
+				text-align: center;
+				max-width: 100%;
+				height: auto;
+			}
+		}
+	}
+
+
+	.s-beneficios{
+		padding: 80px 0 95px 0;
+
+		@media(max-width: 991px){
+			padding: 50px 0;
+		}
+
+		.grid-beneficios{
+			margin-top: 60px;
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			grid-gap: 60px 30px;
+			@media(max-width: 991px){
+				grid-template-columns: 1fr;
+				grid-gap: 40px;
+				margin-top: 40px;
+			}
+			&.grid-duplo{
+				grid-template-columns: repeat(2, 1fr);
+				@media(max-width: 991px){
+					grid-template-columns: 1fr;
+				}
+				.item{
+					justify-content: center;
+				}
+			}
+			.item{
+				display: flex;
+				align-items: center;
+				.ico{
+					margin-right: 25px;
+				}
+				span{
+					font-weight: 600;
+					font-size: 16px;
+					line-height: 150%;
+					display: flex;
+					align-items: center;
+				}
+			}
+		}
+	}
+
+
+	.s-modo-uso{
+		padding: 60px 0;
+		@media(max-width: 991px){
+			padding: 50px 0;
+		}
+		.titulo-secao{
+			text-align: center;
+			margin-bottom: 30px;
+		}
+		.grid-modo{
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			grid-gap: 90px;
+			@media(max-width: 991px){
+				grid-template-columns: 1fr;
+				grid-gap: 30px;
+			}
+			&.grid-modo-duplo{
+				grid-template-columns: 1fr 1fr;
+				grid-gap: 90px 150px;
+				@media(max-width: 991px){
+					grid-template-columns: 1fr;
+					grid-gap: 30px;
+				}
+
+				.item{
+					display: flex;
+					align-items: center;
+					.ico{
+						min-width: 240px;
+						text-align: center;
+					}
+					@media(max-width: 991px){
+						flex-direction: column;
+					}
+				}
+			}
+			.item{
+				text-align: center;
+				h3{
+					margin: 15px 0 30px 0;
+
+					font-size: 23px;
+					line-height: 150%;
+					text-transform: uppercase;
+				}
+				p{
+					font-weight: 600;
+					font-size: 15px;
+					line-height: 150%;
+				}
+			}
+		}
+	}
+
+
+	.s-todas-linhas{
+		h2{
+			margin-bottom: -85px;
+			margin-top: 50px;
+			font-family: Roboto;
+			font-style: italic;
+			font-weight: 500;
+			font-size: 23px;
+			line-height: 150%;
+			text-transform: uppercase;
+			@media(max-width: 991px){
+				font-size: 16px;
+				margin-top: 10px;
+			}
+		}
+		img{
+			height: auto;
+			width: 100%;
+			pointer-events: none;
+		}
+	}
+
+
+}
